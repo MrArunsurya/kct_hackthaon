@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"
+></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-2"></div>
+      <div class="col-lg-4 col-md-8 login-box card h-100">
+<!-- Pills navs -->
+<ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
+  <li class="nav-item" role="presentation">
+    <a class="nav-link active" id="tab-login" data-mdb-toggle="pill" href="#pills-Student" role="tab"
+      aria-controls="pills-login" aria-selected="true">Student</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="tab-register" data-mdb-toggle="pill" href="#pills-Faculty" role="tab"
+      aria-controls="pills-register" aria-selected="false">Faculty</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="tab-register" data-mdb-toggle="pill" href="#pills-Parent" role="tab"
+      aria-controls="pills-register" aria-selected="false">Parent</a>
+  </li>
+</ul>
+<br>
+<!-- Pills navs -->
+
+<!-- Pills content -->
+<div class="tab-content">
+  <div class="tab-pane fade show active" id="pills-Student" role="tabpanel" aria-labelledby="tab-login">
+    <form id="studlogin">
+      <!-- Email input -->
+      <div class="form-outline mb-4">
+        <input type="email" id="studlogin" class="form-control" />
+        <label class="form-label" for="studlogin">Student Username</label>
+      </div>
+
+      <!-- Password input -->
+      <div class="form-outline mb-4">
+        <input type="password" id="studpassword" class="form-control" />
+        <label class="form-label" for="studpassword">Password</label>
+      </div>
+
+      <!-- 2 column grid layout -->
+      <div class="row mb-4">
+        <div class="col-md-6 d-flex justify-content-center">
+          <!-- Checkbox -->
+       
+        </div>
+       
+        <div class="col-md-6 d-flex justify-content-center">
+          <!-- Simple link -->
+          <a href="#!">Forgot password?</a>
+        </div>
+      </div>
+
+      <!-- Submit button -->
+      <button type="submit" class="btn btn-primary btn-block mb-4">Log in</button>
+
+      <!-- Register buttons -->
+      <div class="text-center">
+        
+      </div>
+    </form>
+  </div>
+  <div class="tab-pane fade" id="pills-Faculty" role="tabpanel" aria-labelledby="tab-register">
+    <form>
+
+
+
+
+      <!-- Email input -->
+      <div class="form-outline mb-4">
+        <input type="email" id="faclogin" class="form-control" />
+        <label class="form-label" for="faclogin">Faculty Username</label>
+      </div>
+
+      <!-- Password input -->
+      <div class="form-outline mb-4">
+        <input type="password" id="facpassword" class="form-control" />
+        <label class="form-label" for="facpassword">Password</label>
+      </div>
+
+      <!-- 2 column grid layout -->
+      <div class="row mb-4">
+        <div class="col-md-6 d-flex justify-content-center">
+          <!-- Checkbox -->
+         
+        </div>
+
+        <div class="col-md-6 d-flex justify-content-center">
+          <!-- Simple link -->
+          <a href="#!">Forgot password?</a>
+        </div>
+      </div>
+
+      <!-- Submit button -->
+      <button type="submit" class="btn btn-primary btn-block mb-4">Log in</button>
+
+      <!-- Register buttons -->
+      <div class="text-center">
+       
+      </div>
+    </form>
+  </div>
+  <div class="tab-pane fade show " id="pills-Parent" role="tabpanel" aria-labelledby="tab-login">
+    <form>
+      <!-- Email input -->
+      <div class="form-outline mb-4">
+        <input type="email" id="parlogin" class="form-control" />
+        <label class="form-label" for="parlogin">Parent Username</label>
+      </div>
+
+      <!-- Password input -->
+      <div class="form-outline mb-4">
+        <input type="password" id="parpassword" class="form-control" />
+        <label class="form-label" for="parpassword">Password</label>
+      </div>
+
+      <!-- 2 column grid layout -->
+      <div class="row mb-4">
+        <div class="col-md-6 d-flex justify-content-center">
+          <!-- Checkbox -->
+        
+        </div>
+
+        <div class="col-md-6 d-flex justify-content-center">
+          <!-- Simple link -->
+          <a href="#!">Forgot password?</a>
+        </div>
+      </div>
+
+      <!-- Submit button -->
+      <button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
+
+      <!-- Register buttons -->
+      <div class="text-center">
+        
+      </div>
+    </form>
+  </div>
+</div>
+<!-- Pills content --></div>
+<div class="col-lg-4 col-md-2"></div></div>
+</div>
+</body>
+<style>
+  body{
+   
+    background-image: url("bg.png");
+    background-position: bottom; 
+  background-repeat: no-repeat; 
+  background-size: 200vh; 
+  }
+  .login-box {
+    margin-top: 150px;
+    height: auto;
+   
+    text-align: center;
+   
+}
+</style>
+<!--
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+<script>
+    // Initialize Firebase with your configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyCU2lD3hqpyMuEGTe4h2LgxlDjDFYDunQM",
+    authDomain: "exam-portal-0441.firebaseapp.com",
+    projectId: "exam-portal-0441",
+    storageBucket: "exam-portal-0441.appspot.com",
+    messagingSenderId: "893740758317",
+    appId: "1:893740758317:web:69fbfcda08d0b82eb5cfa4",
+    measurementId: "G-DCCETJKNSG"
+    };
+    firebase.initializeApp(firebaseConfig);
+
+    // Get references to elements on the page
+    var email = document.getElementById('studlogin');
+    var password = document.getElementById('studpassword');
+    var loginForm = document.getElementById('studlogin');
+    var message = document.getElementById('message');
+
+    // Add login event
+    loginForm.addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        var userEmail = email.value;
+        var userPassword = password.value;
+
+        firebase.auth().signInWithEmailAndPassword(userEmail, userPassword)
+            .then(function () {
+                // User successfully logged in
+                message.textContent = 'Logged in successfully.';
+            })
+            .catch(function (error) {
+                // Handle errors
+                message.textContent = error.message;
+            });
+    });
+</script>
+-->
+</body>
+</html>
+</html>
